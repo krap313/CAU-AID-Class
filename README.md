@@ -1,24 +1,25 @@
 
 # Usage
 1. Run the script:
-   '''bash
+   ```bash
    python knn_iris_classifier.py
-   '''
-2. Enter the number of neighbors('k') when prompted.
+   ```
+2. Enter the number of neighbors(`k`) when prompted.
 3. View the model's accuracy and balanced accuracy in the console.
-4. Input 'sepal.length' and 'petal.length' in the format _value1,value2_ to predict the iris species.
+4. Input `sepal.length` and `petal.length` in the format _value1,value2_ to predict the iris species.
 
 # Example
 ## Console Interaction:
-'''bash
+```bash
 Enter the number of neighbors (k) for KNN: 3
 Model Accuracty: 0.96
 Balanced Accuracy: 0.95
-Enter the sepal.length and petal.length for the iris in the format 'sepal.length petal.length': 5.1,1.8
+Enter the sepal.length and petal.length for the iris in the format `sepal.length petal.length`: 5.1,1.8
 Predicted Label: Virginica
+```
 
 # Notes
-1. Ensure that the input for predictons is numeric and follows the correct format ('value1, value2').
+1. Ensure that the input for predictons is numeric and follows the correct format (`value1, value2`).
 2. Modify the dataset loading path in the script if necessary.
 
 # License
