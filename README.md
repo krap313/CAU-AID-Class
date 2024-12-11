@@ -1,10 +1,12 @@
 
-# KNN Iris Classifier
-
-This project demonstrates a K-Nearest Neighbors (KNN) classifier for the Iris dataset. The application allows users to:
-1. Tune the hyperparameter `k` (number of neighbors).
-2. Evaluate the model's performance (accuracy and balanced accuracy).
-3. Predict the iris species based on user-provided input.
+# Usage
+1. Run the script:
+   '''bash
+   python knn_iris_classifier.py
+   '''
+2. Enter the number of neighbors('k') when prompted.
+3. View the model's accuracy and balanced accuracy in the console.
+4. Input 'sepal.length' and 'petal.length' in the format _value1,value2_ to predict the iris species.
 
 ## Features
 - Hyperparameter tuning for KNN (`k` selection).
